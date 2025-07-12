@@ -12,7 +12,6 @@
     font-style: normal;
 }
 
-/* nav styles */
 nav{
     display: flex;
     align-items: center;
@@ -207,14 +206,12 @@ nav li{
     font-size: 16px;
 }
 
-/* General container */
 .get-in-touch {
     display: flex;
     gap: 115px;
     padding: 92.23px 150px 14px 150px;
 }
 
-/* Title styling */
 .get-in-touch-title h1 {
     text-align:left;
     color: #000000;
@@ -222,7 +219,6 @@ nav li{
     font-weight: bold;
 }
 
-/* Form styling */
 .message-me form {
     display: flex;
     flex-direction: column;
@@ -230,7 +226,6 @@ nav li{
     padding-right: ;
 }
 
-/* Input and textarea styling */
 .box-color{
     padding: 12px 15px;
     border: 1px solid #D6DDED;
@@ -250,4 +245,39 @@ nav li{
 .text-box{
     height: 70px;
     
+}
+
+.footer-section nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 24px auto 0 auto;
+    width: fit-content;
+}
+
+.footer-section nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #8987A1;
+    margin-left: 48px;
+}
+
+.footer-section nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.footer-section h1{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+.footer-section p{
+    text-align: center;
+    font-size: 16px;
+    color: #8987A1;
 }
